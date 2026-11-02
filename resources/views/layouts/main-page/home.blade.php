@@ -83,19 +83,6 @@
 
                     </div>
 
-                    <div class="hero-buttons">
-
-                        <a href="https://wa.lawfirm-jlc.com/"
-                           class="btn btn-primary-custom">
-
-                            <i class="bi bi-whatsapp me-2"></i>
-                            Konsultasi Sekarang
-                            <i class="bi bi-arrow-right ms-2"></i>
-
-                        </a>
-
-                    </div>
-
                 </div>
             </div>
 
