@@ -281,8 +281,8 @@
                 <!-- Judul dan deskripsi -->
                 <div class="col-lg-7">
                     <h4 class="choose-heading">
-                        Pengacara Perempuan Pencurian
-                        <span>untuk Kebutuhan Pendampingan Hukum</span>
+                        Pengacara Perempuan 
+                        <span>Kasus Pencurian</span>
                     </h4>
 
                     <p>
