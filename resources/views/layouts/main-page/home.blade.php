@@ -64,7 +64,12 @@
                         dengan pemahaman yang lebih baik.
                     </p>
 
-                    <div class="hero-consultation-box">
+                    <p>
+                        <b>Butuh bantuan hukum terkait dugaan pencurian?</b> Konsultasikan kebutuhan Anda dengan tim JLC
+                        untuk mengetahui pilihan pendampingan yang tersedia.
+                    </p>
+
+                    <!-- <div class="hero-consultation-box">
 
                         <div class="hero-consultation-icon">
                             <i class="bi bi-bank"></i>
@@ -81,7 +86,7 @@
                             </p>
                         </div>
 
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
