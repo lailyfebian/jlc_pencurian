@@ -805,7 +805,7 @@ p {
     }
 
     .hero-consultation-text h2 {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.4;
 
         margin-bottom: 8px;
@@ -1140,7 +1140,7 @@ p {
     }
 
     .feature-item .feature-subtitle {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 s
     .feature-item p {
@@ -1176,12 +1176,12 @@ s
         padding: 8px 15px;
     }
 
-    .hero-content h1 {
+    /*.hero-content h1 {
         font-size: 32px !important;
         line-height: 1.15;
         margin-bottom: 20px;
     }
-
+*/
     .hero-content p {
         font-size: 14px;
         line-height: 1.8;
@@ -1390,7 +1390,7 @@ s
     }
 
     .about-title {
-        font-size: 28px;
+        font-size: 28px !important;
         line-height: 1.25;
         margin-bottom: 20px;
     }
@@ -1852,7 +1852,7 @@ s
 
 .choose-intro > .col-lg-7 > p {
     color: #4b5563;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.8;
     margin-bottom: 12px;
 }
@@ -1984,11 +1984,11 @@ s
     }
 
     .choose-feature-card .why-title {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .choose-feature-card .why-content p:not(.why-title) {
-        font-size: 14px;
+        font-size: 14px !important;
         line-height: 1.65;
     }
 }
@@ -2894,7 +2894,7 @@ s
     }
 
     .jlc-advantage-title {
-        font-size: 28px;
+        font-size: 28px !important;
     }
 
     .jlc-advantage-subtitle {
@@ -2957,9 +2957,9 @@ s
         padding: 28px 18px;
     }
 
-    .jlc-advantage-title {
+    /*.jlc-advantage-title {
         font-size: 26px;
-    }
+    }*/
 
     .jlc-advantage-subtitle {
         font-size: 12px;
@@ -3267,11 +3267,11 @@ s
     }
 
     .team-section-2-title {
-        font-size: 28px;
+        font-size: 28px !important;
     }
 
     .team-section-2-description {
-        font-size: 14px;
+        font-size: 14px !important;
         line-height: 1.8;
     }
 
@@ -3297,10 +3297,10 @@ s
         font-size: 32px;
     }
 
-    .team-section-2-description {
+    /*.team-section-2-description {
         font-size: 16px;
     }
-
+*/
     .team-section-2-content .team-name {
         font-size: 19px;
     }
@@ -3609,20 +3609,24 @@ s
     }
 
     .cta-section-2-title {
-        font-size: 28px;
+        font-size: 28px !important;
+    }
+
+    .cta-section-2-title span {
+        font-size: 28px !important;
     }
 
     .cta-section-2-subtitle {
-        font-size: 16px;
+        font-size: 16px !important;
     }
 
     .cta-section-2-description {
-        font-size: 16px;
+        font-size: 14px !important;
         line-height: 1.9;
     }
 
     .cta-section-2-description p {
-        font-size: 16px;
+        font-size: 14px !important;
         line-height: 1.9;
     }
 
@@ -3697,7 +3701,7 @@ s
     justify-content: center;
     gap: 18px;
     color: #c58a20;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 7px;
     margin-bottom: 15px;
