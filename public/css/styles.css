@@ -1142,9 +1142,9 @@ p {
     .feature-item .feature-subtitle {
         font-size: 18px !important;
     }
-s
+
     .feature-item p {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 }
 
@@ -1400,7 +1400,7 @@ s
     }
 
     .about-content p {
-        font-size: 14px;
+        font-size: 14px !important;
         line-height: 1.8;
     }
 
@@ -2438,6 +2438,7 @@ s
     color: var(--muted);
     margin: 0;
     line-height: 1.8;
+    font-size: 16px;
 }
 
 .consult-btn {
@@ -2559,6 +2560,10 @@ s
 
     .consult-left h5 {
         font-size: 24px;
+    }
+
+    .consult-left p {
+        font-size: 14px;
     }
 
     .consult-icon {
@@ -3270,6 +3275,10 @@ s
         font-size: 28px !important;
     }
 
+    .team-section-2-title span {
+        font-size: 28px !important;
+    }
+
     .team-section-2-description {
         font-size: 14px !important;
         line-height: 1.8;
@@ -3319,13 +3328,10 @@ s
     }
 }
 
-.cta-section-2-button {
-    display: flex !important;
-    width: fit-content !important;
-    margin: 30px auto 0 !important;
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center !important;
+.cta-section-2 {
+    position: relative;
+    overflow: hidden;
+    background: #f8f9fc;
 }
 
 .cta-section-2-wrapper {
@@ -3396,7 +3402,6 @@ s
 
 .cta-section-2-subtitle strong {
     color: #d7a441;
-    font-family: 'Inter', serif !important;
 }
 
 .cta-section-2-divider {
@@ -3441,7 +3446,7 @@ s
 
 .cta-section-2-description p {
     color: rgba(255, 255, 255, .92);
-    font-size: 16px;
+    font-size: 18px;
     line-height: 2;
     margin-bottom: 35px;
 }
@@ -3453,7 +3458,7 @@ s
     background: linear-gradient(135deg,
             #e1b04d,
             #c7922d);
-    color: #fff;
+    color: #14213d;
     font-weight: 700;
     text-decoration: none;
     border-radius: 14px;
@@ -3549,7 +3554,6 @@ s
 @media(max-width:991.98px) {
     .cta-section-2 {
         padding: 40px 0;
-        margin-bottom: -50px;
     }
 
     .cta-section-2-left,
@@ -3593,13 +3597,6 @@ s
 @media(max-width:767.98px) {
     .cta-section-2 {
         padding: 30px 0;
-        margin-bottom: -150px;
-        padding-bottom: 50px;
-    }
-
-    .cta-section-2-button {
-        width: 100% !important;
-        margin: 30px auto 0 !important;
     }
 
     .cta-section-2-left,
@@ -3612,12 +3609,8 @@ s
         font-size: 28px !important;
     }
 
-    .cta-section-2-title span {
-        font-size: 28px !important;
-    }
-
     .cta-section-2-subtitle {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 
     .cta-section-2-description {
@@ -3640,6 +3633,10 @@ s
         width: 100%;
         justify-content: center;
     }
+
+    .cta-section-2-list-item {
+        font-size: 14px;
+    }
 }
 
 @media(max-width:575.98px) {
@@ -3658,15 +3655,15 @@ s
     }
 
     .cta-section-2-subtitle {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .cta-section-2-description {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .cta-section-2-description p {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
